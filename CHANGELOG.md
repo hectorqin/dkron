@@ -6,6 +6,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [3.1.8] - 2021-06-16
+
+### Fixes
+
+- urls were not working well in documentation [#979](https://github.com/distribworks/dkron/pull/979)
+- Improve upgrade doc [#980](https://github.com/distribworks/dkron/pull/980)
+- Update agent tags on config reload [#983](https://github.com/distribworks/dkron/pull/983)
+- Fix intermittent test false negative [#982](https://github.com/distribworks/dkron/pull/982)
+- Fix TLSRaftLayer init [#987](https://github.com/distribworks/dkron/pull/987)
+
+### Changes
+
+- Use Buildkit stable [#977](https://github.com/distribworks/dkron/pull/977)
+- Control errors on scheduler start [#978](https://github.com/distribworks/dkron/pull/978)
+
+
+## [3.1.7] - 2021-05-29
+
+### Features
+
+- Implement ephemeral and expires at feature [#972](https://github.com/distribworks/dkron/pull/972)
+- Add @minutely custom schedule again [#970](https://github.com/distribworks/dkron/pull/970)
+
+### Fixes
+
+- DataGrid UI fixes for long fields [#965](https://github.com/distribworks/dkron/pull/965)
+- Fix race conditions [#967](https://github.com/distribworks/dkron/pull/967)
+- Fix shell executor crashing on missing command [#948](https://github.com/distribworks/dkron/pull/948)
+
+### Changes
+
+- Overhaul logging to avoid package level var [#963](https://github.com/distribworks/dkron/pull/963)
+- Improve tests for http executor [#936](https://github.com/distribworks/dkron/pull/936)
+- Refactor processFilteredNodes for testing [#968](https://github.com/distribworks/dkron/pull/968)
+
 ## [3.1.6] - 2021-03-23
 
 ### Features
